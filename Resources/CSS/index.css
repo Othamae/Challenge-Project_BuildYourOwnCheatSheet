@@ -1,0 +1,30 @@
+*{
+    font-family: Arial, Helvetica, sans-serif ;
+}
+
+body{
+    background-color: rgb(192, 189, 189);
+}
+
+table{
+    background-color: rgb(167, 245, 218);
+    text-align: left;
+    margin: 0 auto;
+    border-collapse: collapse;
+    
+}
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+.code {
+    font-family: monospace;
+    background-color: beige;
+}
