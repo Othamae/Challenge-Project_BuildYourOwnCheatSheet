@@ -3,14 +3,15 @@
 }
 
 body{
-    background-color: rgb(192, 189, 189);
+    background-color: rgb(240,255,255);
 }
 
 table{
-    background-color: rgb(167, 245, 218);
+    background-color: rgb(250, 202, 240);
     text-align: left;
     margin: 0 auto;
     border-collapse: collapse;
+    border: 2px solid grey;
     
 }
 th {
@@ -18,13 +19,30 @@ th {
     vertical-align: inherit;
     font-weight: bold;
     text-align: center;
+    border: 1px solid grey
+    
+    
+}
+td{
+    border: 1px solid grey;
 }
 
 h1, h2{
     text-align: center;
 }
+h1{
+    color: rgb(94, 28, 155);
+}
+
+h2{
+    color: rgb(105, 29, 175);
+}
 
 .code {
     font-family: monospace;
     background-color: beige;
+}
+thead{
+    color: rgb(2, 0, 3);
+    background-color: rgb(189, 135, 240);
 }
